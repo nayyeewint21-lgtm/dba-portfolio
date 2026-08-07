@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#deecc4;
+
+    color:#2d2d2d;
+
+}
+
+.hero{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:70px auto;
+
+    background:white;
+
+    border-radius:25px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:60px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    gap:60px;
+
+}
+
+.hero-left{
+
+    flex:1;
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    background:#a4d16a;
+
+    color:#3e7845;
+
+    padding:10px 22px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.hero-left h1{
+
+    font-size:58px;
+
+    color:#3e7845;
+
+    margin-bottom:15px;
+
+}
+
+.hero-left h2{
+
+    font-size:24px;
+
+    color:#599e5b;
+
+    margin-bottom:25px;
+
+    font-weight:500;
+
+}
+
+.hero-left p{
+
+    line-height:1.8;
+
+    font-size:17px;
+
+    color:#555;
+
+    margin-bottom:40px;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.buttons a{
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.buttons a:first-child{
+
+    background:#599e5b;
+
+    color:white;
+
+}
+
+.buttons a:first-child:hover{
+
+    background:#3e7845;
+
+}
+
+.buttons a:last-child{
+
+    border:2px solid #599e5b;
+
+    color:#599e5b;
+
+}
+
+.buttons a:last-child:hover{
+
+    background:#599e5b;
+
+    color:white;
+
+}
+
+.hero-right{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.hero-right img{
+
+    width:350px;
+
+    height:350px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:8px solid #a4d16a;
+
+    box-shadow:0 20px 35px rgba(0,0,0,.12);
+
+}
+
+@media(max-width:900px){
+
+.hero{
+
+    flex-direction:column-reverse;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+.hero-left h1{
+
+    font-size:42px;
+
+}
+
+.hero-left h2{
+
+    font-size:20px;
+
+}
+
+.buttons{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-right img{
+
+    width:260px;
+
+    height:260px;
+
+}
+
+}
