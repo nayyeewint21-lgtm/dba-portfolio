@@ -21,6 +21,7 @@ body{
     max-width:1200px;
 
     margin:70px auto;
+    margin-bottom: 10px;
 
     background:white;
 
@@ -235,7 +236,7 @@ body{
     text-align:center;
     color:#3e7845;
     font-size:40px;
-    margin-bottom:50px;
+    margin-bottom:10px;
 
 }
 
@@ -402,5 +403,29 @@ body{
 
     color:#3e7845;
     text-decoration:underline;
+
+}
+
+.job-detail-btn{
+
+    display:inline-block;
+
+    margin-top:18px;
+
+    color:#599e5b;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.job-detail-btn:hover{
+
+    color:#3e7845;
+
+    letter-spacing:1px;
 
 }
