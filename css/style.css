@@ -219,3 +219,172 @@ body{
 }
 
 }
+
+/* ====================== */
+
+.section{
+
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+
+}
+
+.section-title{
+
+    text-align:center;
+    color:#3e7845;
+    font-size:40px;
+    margin-bottom:50px;
+
+}
+
+/* ===== Timeline ===== */
+
+.timeline{
+
+    position:relative;
+    padding-left:30px;
+    border-left:4px solid #599e5b;
+
+}
+
+.timeline-item{
+
+    margin-bottom:45px;
+
+}
+
+.year{
+
+    display:inline-block;
+    background:#599e5b;
+    color:white;
+    padding:8px 18px;
+    border-radius:30px;
+    margin-bottom:15px;
+    font-weight:600;
+
+}
+
+.content{
+
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.content h3{
+
+    color:#3e7845;
+    margin-bottom:8px;
+
+}
+
+.content h4{
+
+    color:#799f4b;
+    margin-bottom:15px;
+
+}
+
+/* ===== Skills ===== */
+
+.skills{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+
+}
+
+.card{
+
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card h3{
+
+    color:#3e7845;
+    margin-bottom:20px;
+
+}
+
+.card p{
+
+    margin:8px 0;
+
+}
+
+/* ===== Certificates ===== */
+
+.certificates{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+
+}
+
+.certificate{
+
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.certificate h3{
+
+    color:#3e7845;
+    margin-bottom:15px;
+
+}
+
+/* ===== Contact ===== */
+
+.contact{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+
+}
+
+.contact-item{
+
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.contact-item h3{
+
+    color:#3e7845;
+    margin-bottom:15px;
+
+}
+
+.contact-item p{
+
+    color:#555;
+
+}
