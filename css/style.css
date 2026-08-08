@@ -749,3 +749,75 @@ body{
     }
 
 }
+
+
+
+
+/* ===============================
+   DEVELOPER CREDIT
+================================ */
+
+.developer-credit {
+
+    width: 100%;
+
+    overflow: hidden;
+
+    margin-top: 70px;
+
+    padding: 18px 0;
+
+
+    color:  #3e7845;
+
+    white-space: nowrap;
+
+}
+
+
+.developer-track {
+
+    display: flex;
+
+    width: max-content;
+
+    animation: developerScroll 10s linear infinite;
+
+}
+
+
+.developer-track span {
+
+    margin: 0 35px;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+    letter-spacing: 1px;
+
+}
+
+
+/* Horizontal animation */
+
+@keyframes developerScroll {
+
+    from {
+
+        transform: translateX(0);
+
+    }
+
+    to {
+
+        transform: translateX(-50%);
+
+    }
+
+}
+
+.developer-track i {
+    margin-top: 7px;
+    font-size: 20px;
+}
